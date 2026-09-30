@@ -7,7 +7,7 @@ app = Flask(__name__)
 FACE = "Polished Long Hair - No Freckles - LOCKED 🔒"
 ACADEMY = "Aria Forge Academy"
 CEO = "Nkiru"
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "") # You will set this on Render
+TELEGRAM_TOKEN = os.environ.get("BOT_TOKEN", "") # You will set this on Render
 
 def aria_brain(message):
     msg = message.lower().strip()
